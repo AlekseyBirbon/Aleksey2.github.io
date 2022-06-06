@@ -1,0 +1,75 @@
+header ul li {
+    float: left;
+    background-color: rgb(110, 110, 110);
+    display: inline;
+    padding: 10px ;
+
+}
+header ul li a{
+    display: block;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+
+}
+/* Блок с шапкой */
+header{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+    flex-direction: row;
+    width: 100%;
+    margin: auto;
+    background-color: rgb(110, 110, 110);
+}
+body {
+    background-color: lightslategray;
+    padding: 0;
+    margin: 0 10% 0 10%;
+}
+
+input {
+padding-top: 23.5px;
+padding-bottom: 23px;
+padding-right: 0px;
+height: 2px;
+}
+button {
+    position: fixed;
+    height: 53px;
+    width: 25px;
+    margin-left: -20px;
+}
+
+.q{
+
+    color: rgb(110, 110, 110); 
+}
+.circle {
+    font-size: 25px;
+    display: flex;
+    background: green;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    animation: pulsing 2s infinite;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+   }
+   @keyframes pulsing {
+    0% {
+    transform: scale(0.5, 0.5)
+    }
+    50% {
+    transform: scale(1.0, 1.0);
+    }
+    100% {
+    transform: scale(0.5, 0.5);
+    }
+   }
+
+   
